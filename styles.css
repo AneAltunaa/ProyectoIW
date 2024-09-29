@@ -1,0 +1,35 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: rgb(196, 164, 226);
+}
+
+nav{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.sep{
+    margin: 50px;
+    color: black;
+}
+
+footer{
+    background-color: rgb(196, 164, 226);
+}
+
+.copy{
+    text-align: center;
+    font-size: 12px;
+}
+
+.movment{
+    text-align: left;   
+}
+
+.contact{
+    text-align: right;
+}
+
