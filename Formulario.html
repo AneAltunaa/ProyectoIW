@@ -1,1 +1,38 @@
-git config --global user.name "John Doe"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valoraciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form action="server.php" method="POST">
+            <fieldset>
+                <legend>Datos personales: </legend>
+                <label>Nombre: </label><input type="text"><br>
+                <br>
+                <label>Email: </label><input type="text"><br>
+                <br>
+            </fieldset>
+            <label>Categoria: </label><br>
+            <input type="radio" name="gen">Amor<br>
+            <input type="radio" name="gen">Terror<br>
+            <input type="radio" name="gen">Aventura<br>
+            <input type="radio" name="gen">Ciencia Ficción <br>          
+            <br>
+            <label >Escribe tu reseña: </label><br>
+            <textarea name="textarea" rows="6"cols="50"></textarea>
+        </form>
+    </main>
+    <footer>
+
+
+    </footer>
+    
+</body>
+</html>
