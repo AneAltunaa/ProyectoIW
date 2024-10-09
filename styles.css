@@ -1,14 +1,29 @@
+
 body{
+    margin: 0px 0px 0px 0px;
     font-family: 'Times New Roman', Times, serif;
+    background-image: url("imagenes/duotone.png");
+    box-sizing: border-box;
+    
 }
 
 header{
-    background-color: rgb(196, 164, 226);
+    background-color: #c4ebf5;
+    width: 100%;
+    padding: 20px;
 }
 
 nav{
     text-align: center;
-    border: 1px solid black;
+    width: 100%;
+}
+
+.fondo{
+    background-color: rgb(252, 252, 252, 0.6);
+}
+
+h1{
+    text-align: center;
 }
 
 .sep{
@@ -17,19 +32,69 @@ nav{
 }
 
 footer{
-    background-color: rgb(196, 164, 226);
+    background-color: #c4ebf5;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+main{
+    width: 100%;
+    padding: 20px;
 }
 
 .copy{
     text-align: center;
     font-size: 12px;
+    flex-grow: 1;
 }
 
 .movment{
-    text-align: left;   
+    text-align: left;  
 }
+
+.info_mov{
+    list-style: none;
+}
+
 
 .contact{
-    text-align: right;
+    text-align: left;
+        
 }
 
+table, td{
+    border: solid 1px;
+
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse; 
+    width: 80%; 
+}
+
+.horarioTabla{
+    text-align: center;
+}
+
+.imagen_lib{
+    float: left; /* Imagen flota a la izquierda */
+    margin-right: 15px; /* Añade espacio a la derecha de la imagen */
+    width: 200px; 
+    
+}
+
+.libro_info{
+    overflow: hidden;
+    padding-top: 60px;
+    padding-left: 20px;
+    
+}
+
+.hour{
+    clear: both;
+}

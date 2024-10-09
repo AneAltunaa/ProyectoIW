@@ -3,41 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>Club De Lectura</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header>
-        <h1>TITULO</h1>
+        <h1>CLUB DE LECTURA</h1>
         <nav>
-            <a href="vendidos.html" target="_self" class="sep">Más vendidos</a> 
-            <a href="categorias.html" target="_self" class="sep">Libros por categorias</a> <!--(otro form? reservas) por categorias-->
-            <a href="Formulario.html" target="_self" class="sep">Reseña</a>
+            <a href="categorias.html" target="_self" class="sep">Libros por categorias</a>
+            <a href="vendidos.html" target="_self" class="sep">Reseñas</a> 
+             <!--(otro form? reservas) por categorias-->
+            <a href="Formulario.html" target="_self" class="sep">Inscripción</a>
         </nav> 
     </header>
-    <main>
+    <main class="fondo">
         
-        <img src="imagenes/librerioa.png" alt="portada">
+        <div>
+           <article>
+                <section class="imagen_lib">
+                    <h2>Libro de la semana</h2>
+                    <img src="imagenes/libroDelmes.jpg" alt="libroDelMes" width="200px", height="300px">
+                </section>
+                <section class="libro_info">
+                    <p><strong>Autor:</strong> Matt Haig</p>
+                    <p><strong>Sinopsis:</strong> "Entre la vida y la muerte hay una biblioteca. Y los estantes de esa biblioteca son infinitos. Cada libro da la oportunidad de probar otra vida que podrías haber vivido y de comprobar cómo habrían cambiado las cosas si hubieras tomado otras decisiones… ¿Habrías hecho algo de manera diferente si hubieras tenido la oportunidad?". Nora Seed aparece, sin saber cómo, en la Biblioteca de la Medianoche, donde se le ofrece una nueva oportunidad para hacer las cosas bien. Hasta ese momento, su vida ha estado marcada por la infelicidad y el arrepentimiento. Nora siente que ha defraudado a todos, y también a ella misma. Pero esto está a punto de cambiar. Los libros de la Biblioteca de la Medianoche permitirán a Nora vivir como si hubiera hecho las cosas de otra manera. Con la ayuda de una vieja amiga, tendrá la opción de esquivar todo aquello que se arrepiente de haber hecho (o no haber hecho), en pos de la vida perfecta. Pero las cosas no siempre serán como imaginó que serían, y pronto sus decisiones enfrentarán a la Biblioteca y a ella misma en un peligro extremo. Nora deberá responder una última pregunta antes de que el tiempo se agote: ¿cuál es la mejor manera de vivir?</p>
+                </section>
+           </article>
 
-        
+           <div class="hour">
+            <h2>Horarios</h2>
+            <p>Horarios importantes sobre las reuniones del club de lectura</p>
+            <table class="horarioTabla">
+                <tr>
+                    <th>Día</th>
+                    <th>Hora</th>
+                    <th>Evento</th>
+                </tr>
+                <tr>
+                    <td>Lunes</td>
+                    <td>18:00</td>
+                    <td>Comunicado libro para leer</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>18:00</td>
+                    <td>Algo</td>
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td>18:00</td>
+                    <td>Reunion sobre el libro semanal</td>
+                </tr>
+            </table>
+        </div>
 
 
-
+        </div>
 
     </main>
     <footer>
         
         <div class="movment">
-            <ul>
+            <ul class="info_mov">
                 <li><a href="vendidos.html" target="_self">Más vendidos</a></li>
                 <li><a href="categorias.html" target="_self">Libros por categorias</a></li>
                 <li><a href="Formulario.html" target="_self">Reseña</a></li>
             </ul>
         </div>
-        <p class="copy">Copyright</p>
+        <p class="copy">Copyright © 2024</p>
         <div class="contact">
             <p>Contacto</p>
+            <p>111 222 333</p>
+            <p>clubdelectura@gmail.com</p>
         </div>
     
     </footer>
