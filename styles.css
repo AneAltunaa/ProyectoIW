@@ -154,26 +154,43 @@ aside{
     margin-left: 20px;
     padding: 10px;
     padding-bottom: 400px;
-    height: 100vh;    
+    position: relative; 
+}
+
+aside.cat{
+    height: 250vh;
+}
+
+aside.res{
+    height: 95vh;
 }
 
 .category{
-    float: left;
+    
     margin-left: 20px;
+
+}
+
+.book-container{
+    display: grid;
+    grid-template-columns: repeat(2, 150px 1fr);
+    grid-gap:20px;
+}
+
+.book-container p{
+    text-align: justify;
 }
 
 .titCat{
     text-align: center;
 }
 
-.primImagen{
-    text-align: left;
+
+
+.imagen{
+    align-items: center;
 }
 
-.seguImagen{
-    text-align: right;
-    
-}
 
 .footAside{
     clear: both;
