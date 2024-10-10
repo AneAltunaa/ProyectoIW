@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscripción</title>
+    <title>Más Vendidos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,34 +17,33 @@
             <a href="Formulario.html" target="_self" class="sep">Inscripción</a>
         </nav> 
     </header>
-    <main class="fondo">
-        <form action="server.php" method="POST">
+
+    <main>
+        <div>
+            <!--General-->
+            
+        </div>
+        <div>
+            <!--Por categoria el que mas-->
             <fieldset>
-                <legend>Datos personales: </legend>
-                <label for="nombre">Nombre: </label><input type="text" id="nombre"><br>
+                <legend>Datos del libro: </legend>
+                <label>Título del libro: </label><input type="text"><br>
                 <br>
-                <label for="apellido">Apellidos: </label><input type="text" id="apellido"><br>
+                <label>Autor: </label><input type="text"><br>
                 <br>
-                <label for="nacimiento">Fecha de nacimiento: </label><input type="date" id="nacimiento"><br>
+                <label>Categoria: </label><br>
+                <input type="radio" name="gen">Amor<br>
+                <input type="radio" name="gen">Terror<br>
+                <input type="radio" name="gen">Aventura<br>
+                <input type="radio" name="gen">Ciencia Ficción <br>          
                 <br>
-                <label for="vive">Dirección: </label>
-
-
-                <label for="email">Email: </label><input type="text" id="email"><br>
-                <br>
-                <label for="tel">Teléfono: </label><input type="text" id="tel"><br>
-                <br>
+                <label >Escribe tu reseña: </label><br>
+                <textarea name="textarea" rows="6"cols="50"></textarea>
+                <br><br>
+                <input type="submit" value="Enviar">
             </fieldset>
-            <br>
-            <input type="checkbox" id="cond"><label for="cond">Acepto las condiciones</label>  
-            <br>          
-            <input type="checkbox" id="cond2"><label for="cond2">Quiero que me lleguen notificaciones de las novedades</label>            
-            <br>
-            <br>
-            <input type="submit" value="Incribirme">
-        </form>
+        </div>
     </main>
-
 
     <footer>
         
@@ -63,6 +62,7 @@
         </div>
     
     </footer>
-    
+
+
 </body>
 </html>

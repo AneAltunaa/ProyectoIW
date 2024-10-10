@@ -2,20 +2,29 @@
 body{
     margin: 0px 0px 0px 0px;
     font-family: 'Times New Roman', Times, serif;
-    background-image: url("imagenes/duotone.png");
-    box-sizing: border-box;
+    /*background-image: url("imagenes/duotone.png");*/
+    
     
 }
 
 header{
     background-color: #c4ebf5;
-    width: 100%;
     padding: 20px;
+    position: relative;
 }
 
 nav{
     text-align: center;
     width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .fondo{
@@ -26,6 +35,10 @@ h1{
     text-align: center;
 }
 
+.logo{
+    float: left;
+}
+
 .sep{
     margin: 50px;
     color: black;
@@ -33,7 +46,7 @@ h1{
 
 footer{
     background-color: #c4ebf5;
-    width: 100%;
+    
     padding: 20px;
     align-items: center;
     display: flex;
@@ -42,7 +55,6 @@ footer{
 }
 
 main{
-    width: 100%;
     padding: 20px;
 }
 
@@ -90,11 +102,39 @@ table{
 
 .libro_info{
     overflow: hidden;
-    padding-top: 60px;
     padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px;
+    text-align: justify;
+    background-color: rgb(148, 168, 234);
     
 }
 
 .hour{
+    clear: both;
+}
+
+
+aside{
+    float: left;
+    width: 25%;
+    background-color: #ecfbff;
+    margin-left: 20px;
+    padding: 10px;
+    padding-bottom: 500px; /*Mirar esto*/
+
+}
+
+.category{
+    float: left;
+    margin-left: 20px;
+}
+
+.titCat{
+    text-align: center;
+}
+
+
+.footAside{
     clear: both;
 }
