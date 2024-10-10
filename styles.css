@@ -94,7 +94,6 @@ table{
 .imagen_lib{
     float: left; 
     margin-right: 15px; 
-    width: 200px;     
 }
 
 .libro_info{
@@ -104,8 +103,9 @@ table{
     border: solid 1px;
     text-align: justify;
     background-color: rgb(148, 168, 234);
-    
 }
+
+
 
 .imagen_res{
     float: left; 
