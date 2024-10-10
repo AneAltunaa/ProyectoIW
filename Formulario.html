@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img src="imagenes/logo.png" alt="logo" width="90" class= "logo">
+        <a href="Index.html" target="_self"><img src="imagenes/logo.png" alt="logo" width="90" class= "logo"></a>
 
         <h1>CLUB DE LECTURA</h1>
         <nav>
@@ -20,6 +20,16 @@
     <main class="fondo">
         <form action="server.php" method="POST">
             <fieldset>
+                <legend>Crear Usuario</legend>
+                <label for="usu">Usuario: </label><input type="text" id="usu"><br>
+                <br>
+                <label for="pass">Contraseña: </label><input type="password" id="pass"><br>
+                <br>
+                <label >Repetir contraseña: </label><input type="password"><br>
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
                 <legend>Datos personales: </legend>
                 <label for="nombre">Nombre: </label><input type="text" id="nombre"><br>
                 <br>
@@ -27,9 +37,32 @@
                 <br>
                 <label for="nacimiento">Fecha de nacimiento: </label><input type="date" id="nacimiento"><br>
                 <br>
-                <label for="vive">Dirección: </label>
-
-
+                <label for="vive">Comunidad Autonoma: </label>
+                <select id="vive" name="vive"> 
+                    <optgroup label="CCAA">
+                        <option>Andalucía</option>
+                        <option>Aragón</option>
+                        <option>Asturias</option>
+                        <option>Baleares</option>
+                        <option>Canarias</option>
+                        <option>Cantabria</option>
+                        <option selected>País Vasco</option>
+                        <option>Castilla La Mancha</option>
+                        <option>Castilla León</option>
+                        <option>Cataluña</option>
+                        <option>Valencia</option>
+                        <option>Madrid</option>
+                        <option>Extremadura</option>
+                        <option>Galicia</option>
+                        <option>La Rioja</option>
+                        <option>Murcia</option>
+                    </optgroup>
+                </select><br>
+                <br>
+                <label for="calle">Ciudad: </label><input type="text" name="calle" id="calle"><br>
+                <br>
+                <label for="codpostal">Código Postal: </label><input type="text" name="codpostal" id="codpostal"><br>
+                <br>
                 <label for="email">Email: </label><input type="text" id="email"><br>
                 <br>
                 <label for="tel">Teléfono: </label><input type="text" id="tel"><br>
@@ -49,6 +82,7 @@
     <footer>
         
         <div class="movment">
+            <p>Navegación: </p>
             <ul class="info_mov">
                 <li><a href="vendidos.html" target="_self">Más vendidos</a></li>
                 <li><a href="categorias.html" target="_self">Libros por categorias</a></li>

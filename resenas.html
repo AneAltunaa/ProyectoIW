@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Más Vendidos</title>
+    <title>Reseñas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="imagenes/logo.png" alt="logo" width="90" class= "logo">
+        <a href="Index.html" target="_self"><img src="imagenes/logo.png" alt="logo" width="90" class= "logo"></a>
 
         <h1>CLUB DE LECTURA</h1>
         <nav>
@@ -18,36 +18,64 @@
         </nav> 
     </header>
 
-    <main>
-        <div>
-            <!--General-->
+
+    <aside>
+        <ul>
+            <li><a href="#resenasOtros" target="_self">Opiniones</a></li>
+            <li><a href="#misResenas" target="_self">Escribir mi reseña</a></li>
+        </ul>
+    </aside>
+
+    <main >
+        <div >
+            <a  id="resenasOtros"></a>
+            <h2>Reseñas de otros usuarios</h2>
             
+            <section class="resenasVarias">
+                <img src="imagenes/libroCat/resena3.jpg" alt="reseña" width="150" class="imagen_res">
+                <p class="resInfo"> <em>5 STARS:</em> <br> Este libro me ha mantenido en vilo y nerviosa, necesitaba leer más y me ha enganchado bastante. Viola me parece genial y me ha gustado mucho, Todd en cambio a veces me ha desesperado y me han entrando ganas de decirle, pero que haces? y aún así no quería que le sucediese nada. Voy a tener que leer pronto la segunda parte por que el final de este libro me ha dejado con muchas ganas de más</p>
+            </section>
+            <section class="resenasVarias">
+                <img src="imagenes/libroCat/resena1.png" alt="reseña" width="150" class="imagen_res">
+                <p class="resInfo"> <em>4 STARS:</em> <br>El verdadero acierto de Los asesinatos de la guillotina Meiji es cómo Yamada entrelaza lo histórico con lo ficticio, creando un mosaico donde figuras reales y eventos de la época se mezclan con una narrativa detectivesca brillantemente ejecutada. La presencia de Esmeralda, la misteriosa francesa descendiente de verdugos, añade un toque exótico y simbólico que se despliega conforme avanza la historia, sirviendo como un espejo de los conflictos internos de los personajes.</p>
+            </section>
+            <section class="resenasVarias">
+                <img src="imagenes/libroCat/resena2.jpg" alt="reseña" width="150" class="imagen_res">
+                <p class="resInfo"> <em>2.5 STARS:</em> <br>Es de lectura fácil, está narrado de modo muy visual y la trama es una mezcla de acertijos misteriosos y novela romántica pero la historia y sus giros resultan poco creíbles y los personajes son bastante pobres. Un libro para pasar el rato con pocas pretensiones .</p>
+    
+            </section>
         </div>
-        <div>
-            <!--Por categoria el que mas-->
+
+        <div class="miOpinion">
+            <a  id="misResenas"></a>
+            <h2>Escribir mi propia reseña </h2>
             <fieldset>
                 <legend>Datos del libro: </legend>
                 <label>Título del libro: </label><input type="text"><br>
                 <br>
                 <label>Autor: </label><input type="text"><br>
                 <br>
-                <label>Categoria: </label><br>
-                <input type="radio" name="gen">Amor<br>
-                <input type="radio" name="gen">Terror<br>
-                <input type="radio" name="gen">Aventura<br>
-                <input type="radio" name="gen">Ciencia Ficción <br>          
+                <label>Categoria del libro: </label><br>
+                <input type="radio" name="gen">Romance<br>
+                <input type="radio" name="gen">Misterio<br>
+                <input type="radio" name="gen">Thriller<br>
+                <input type="radio" name="gen">Miedo <br>        
+                <input type="radio" name="gen">Ciencia Ficción <br>
+                <input type="radio" name="gen">Fantasia <br> 
+                <input type="radio" name="gen">Novela Negra <br>          
                 <br>
                 <label >Escribe tu reseña: </label><br>
-                <textarea name="textarea" rows="6"cols="50"></textarea>
+                <textarea name="textarea" rows="6" cols="50"></textarea>
                 <br><br>
                 <input type="submit" value="Enviar">
             </fieldset>
         </div>
     </main>
 
-    <footer>
+    <footer class="footAside">
         
         <div class="movment">
+            <p>Navegación: </p>
             <ul class="info_mov">
                 <li><a href="vendidos.html" target="_self">Más vendidos</a></li>
                 <li><a href="categorias.html" target="_self">Libros por categorias</a></li>

@@ -3,7 +3,7 @@ body{
     margin: 0px 0px 0px 0px;
     font-family: 'Times New Roman', Times, serif;
     /*background-image: url("imagenes/duotone.png");*/
-    
+    height: 100%;
     
 }
 
@@ -46,12 +46,10 @@ h1{
 
 footer{
     background-color: #c4ebf5;
-    
     padding: 20px;
     align-items: center;
     display: flex;
     justify-content: space-between;
-    
 }
 
 main{
@@ -94,10 +92,9 @@ table{
 }
 
 .imagen_lib{
-    float: left; /* Imagen flota a la izquierda */
-    margin-right: 15px; /* Añade espacio a la derecha de la imagen */
-    width: 200px; 
-    
+    float: left; 
+    margin-right: 15px; 
+    width: 200px;     
 }
 
 .libro_info{
@@ -110,10 +107,45 @@ table{
     
 }
 
-.hour{
+.imagen_res{
+    float: left; 
+    margin-right: 15px; 
+}
+
+.resInfo{
+    overflow: hidden;
+    margin-left: 300px;
+    margin-bottom: 200px;
+    padding: 20px;
+    border: solid 1px;
+    text-align: justify;;
+}
+
+.resenasVarias{
+    padding-left: 250px;
+    clear: right;
+}
+
+
+.miOpinion{
     clear: both;
 }
 
+.mes{
+    margin-top: 60px;
+    clear: both;
+}
+
+.favoritos{
+    background-color: aliceblue;
+    padding: 10px;
+    clear: both;
+}
+
+.imagenFav{
+    margin-top: 20px;
+    float: right;
+}
 
 aside{
     float: left;
@@ -121,8 +153,8 @@ aside{
     background-color: #ecfbff;
     margin-left: 20px;
     padding: 10px;
-    padding-bottom: 500px; /*Mirar esto*/
-
+    padding-bottom: 400px;
+    height: 100vh;    
 }
 
 .category{
@@ -134,7 +166,18 @@ aside{
     text-align: center;
 }
 
+.primImagen{
+    text-align: left;
+}
+
+.seguImagen{
+    text-align: right;
+    
+}
 
 .footAside{
     clear: both;
 }
+
+
+
